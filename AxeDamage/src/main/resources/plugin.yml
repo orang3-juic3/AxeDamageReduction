@@ -1,0 +1,17 @@
+name: AxeDamageReduction
+version: ${project.version}
+main: axedamage.me.black.Me.black
+api-version: 1.16
+commands:
+  axedamagetoggle:
+    usage: /axedamagetoggle
+    description: Toggles axe damage reduction
+permissions:
+  axedamagereduction.*:
+    description: Gives access to all commands for the AxeDamageReduction plugin.
+    children:
+      axedamagereduction.toggle: true
+  axedamagereduction.toggle:
+    description: Gives access to /axedamagetoggle
+    default: op
+

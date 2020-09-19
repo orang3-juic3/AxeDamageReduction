@@ -1,0 +1,10 @@
+toggle: 1
+# toggles damage reduction
+Axes:
+  # percentage damage reduction
+  woodenaxe: 50
+  stoneaxe: 50
+  ironaxe: 50
+  goldaxe: 50
+  diamondaxe: 50
+  netheriteaxe: 50
